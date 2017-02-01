@@ -16,10 +16,9 @@ Route::get('/in', function () {
 });
 
 Route::post('/insert','Controller@insert');
-Route::get('/', function ()
- {
-    return View::make('home');
-});
+ /*{
+    return View('auth/register');
+});*/
 
 
 Route::get('/about',function()
@@ -43,3 +42,7 @@ Route::get('/get_sim',function()
 });
 
 Route::get('view','proviewcontroller@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
