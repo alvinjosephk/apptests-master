@@ -2,11 +2,19 @@
  <html lang="en">
  <head>
  <meta charset="UTF-8">
- <title>OSIRES </title>
+ <title>OSIRES</title>
  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
  <script src="https://code.jquery.com/jquery.js"></script>
  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+<script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
+
+
+
+
+ </script>
+
  </head>
  <body>
  <header>
@@ -20,7 +28,7 @@
  <span class="icon-bar"></span>
 
  </button>
- <a class="navbar-brand" href="/">OSIRES</a>
+ <a class="navbar-brand" href="/">ONLINE SIM REGISTRATION</a>
  </div>
 
  <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,15 +42,16 @@
  </nav>
  </header>
 
+ <img src="img/osires.jpg"  style="width:100%; height:">
 
 
- <img src="img/osires.jpg" alt="" style="width:100%;height:"">
 
-<div class="container">
- <footer>developed by             Adarsh S   Alvin Joseph K  Dimal D Joseph  Dhanya T</footer>
- </div>
-
-
+ <footer class="footer">
+   <a class="up-arrow" href="#top" data-toggle="tooltip" title="TO TOP">
+     <span class="glyphicon glyphicon-chevron-up"></span>
+   </a><br><br>
+   <p>Developed by <br>Alvin Joseph| Dhanya T|Adarsh S| Dimal Joseph </p>
+ </footer>
 
  @yield('content')
  </body>
