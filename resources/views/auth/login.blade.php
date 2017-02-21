@@ -2,8 +2,7 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<div>
-  <img src="img/osires.jpg"  style="width:100%; height:">
+
 <div class="container">
 
     <div class="row">
@@ -72,7 +71,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 
 @endsection
