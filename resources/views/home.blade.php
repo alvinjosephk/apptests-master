@@ -10,6 +10,33 @@
                 <div class="panel-body">
                     You are logged in!
                 </div>
+
+                <div class="panel-body">
+                 <center>
+                     Choose your SIM
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <a href="/choose_sim" class="thumbnail">
+                        <img src="img/idea.jpg" alt="IDEA SIM">
+                      </a>
+                    </div>
+                      <div class="col-sm-6 col-md-4">
+                        <a href="/choose_sim" class="thumbnail">
+                          <img src="img/airtel.jpg" alt="AIRTEL">
+                        </a>
+                      </div>
+                    <div class="col-sm-7 col-md-4">
+                      <a href="/choose_sim" class="thumbnail">
+                        <img src="img/airtel.jpg" alt="BSNL SIM">
+                      </a>
+                    </div>
+                </div>
+                </center>
+
+                </div>
+
+
+
             </div>
         </div>
     </div>

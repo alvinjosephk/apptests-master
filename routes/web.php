@@ -37,9 +37,9 @@ Route::get('/contact',function()
 
 
 
-Route::get('/get_sim',function()
+Route::get('/choose_sim',function()
 {
-  return View::make('get_sim');
+  return View::make('choose_sim');
 
 });
 
