@@ -3,12 +3,21 @@
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <div>
-  <img src="img/osires.jpg"  style="width:100%; height:">
+  <div class="banner">
+    <!--<img src="img/osires.jpg"  style="width:100%; height:">-->
+  </div>
+  <section class="header">
+   <div class="background">&nbsp;</div>
+  </section>
+
+
+
+<section class="section-padding">
 <div class="container">
 
     <div class="row">
 
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-1">
 
             <div class="panel panel-default">
 
@@ -73,6 +82,7 @@
         </div>
     </div>
 </div>
+</section>
 </div>
 
 @endsection
