@@ -25,7 +25,7 @@
             {{ Form::select('status',array('prepaid'=>'Prepaid','postpaid'=>'PostPaid'),'Prepaid') }}
             <br> <br>
             Choose the number type:
-            {{ Form::select('number_type',array('fancy'=>'Fancy','ordinary'=>'ordinary'),'Fancy') }}
+            {{ Form::select('number_type',array('fancy'=>'Fancy','ordinary'=>'ordinary'),'ordinary') }}
             <br><br>
             <br>
             <div class="panel panel-primary">

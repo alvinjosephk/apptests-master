@@ -7,7 +7,7 @@
     <!--<img src="img/osires.jpg"  style="width:100%; height:">-->
   </div>
   <section class="header">
-   <div class="background">&nbsp;</div>
+   <div class="body">&nbsp;</div>
   </section>
 
 

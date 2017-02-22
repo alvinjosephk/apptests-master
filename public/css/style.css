@@ -1,29 +1,9 @@
 .footer {
       background-color: #2d2d30;
       color: #f5f5f5;
-      padding: 0px;
+      padding: -1px;
   }
 
-  .background {
-   position: absolute;
-   left: 0;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   background: 50% 50% no-repeat;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size:cover;
-   background-size: cover;
-   }
-
-   .header .background {
-   background-image: url("/img/osires.jpg");
-   height: 500px;
-   bottom: 15px;
-   z-index: -1;
-   }
-
-
-   .section-padding {
-    padding-top: 430px;
+  .body{
+    background-image: url('/img/background.jpg');
+  }
