@@ -31,7 +31,7 @@
       </div>
     <div class="col-sm-7 col-md-4">
       <a href="/choose_sim" class="thumbnail">
-        <img src="img/airtel.jpg" alt="BSNL SIM">
+        <img src="img/bsnl.jpg" alt="BSNL SIM">
       </a>
     </div>
 </div>
