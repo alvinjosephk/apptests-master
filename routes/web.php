@@ -48,3 +48,4 @@ Route::get('view','proviewcontroller@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/choose_sim','HomeController@choose');

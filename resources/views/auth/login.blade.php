@@ -2,6 +2,7 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<<<<<<< HEAD
 <div>
   <div class="banner">
     <!--<img src="img/osires.jpg"  style="width:100%; height:">-->
@@ -14,6 +15,10 @@
 
 <section class="section-padding">
 <div class="container">
+=======
+
+<div class="container er">
+>>>>>>> origin/master
 
     <div class="row">
 
@@ -82,7 +87,10 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 </section>
 </div>
+=======
+>>>>>>> origin/master
 
 @endsection

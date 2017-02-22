@@ -20,7 +20,7 @@ class CreateTableMobileNumbers extends Migration
           $table->string('type');
           $table->string('num_type');
           $table->integer('price');
-          
+
 
 
         });
