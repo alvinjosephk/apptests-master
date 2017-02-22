@@ -22,10 +22,24 @@
                   <div class="panel-body">
 
                       Choose the type of SIM
+<<<<<<< HEAD
             {{ Form::select('status',array('prepaid'=>'Prepaid','postpaid'=>'PostPaid'),'Prepaid') }}
             <br> <br>
             Choose the number type:
             {{ Form::select('number_type',array('fancy'=>'Fancy','ordinary'=>'ordinary'),'ordinary') }}
+=======
+<<<<<<< HEAD
+
+            <br> <br>
+            Choose the number type:
+          
+=======
+            {{ Form::select('status',array('prepaid'=>'Prepaid','postpaid'=>'PostPaid'),'Prepaid') }}
+            <br> <br>
+            Choose the number type:
+            {{ Form::select('number_type',array('fancy'=>'Fancy','ordinary'=>'ordinary'),'Fancy') }}
+>>>>>>> origin/master
+>>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
             <br><br>
             <br>
             <div class="panel panel-primary">
@@ -65,8 +79,11 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
 @endsection
