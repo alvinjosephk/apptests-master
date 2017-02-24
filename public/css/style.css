@@ -4,11 +4,13 @@
       padding: -1px;
   }
 
-  .body{
-    background-image: url('/img/background.jpg');
-  }
+
 body{
 
  background: #eeeeee url("/img/background.jpg") no-repeat right top;
 
+}
+.center {
+    text-align: center;
+    border: 3px solid green;
 }

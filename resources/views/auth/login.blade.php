@@ -2,7 +2,7 @@
 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<<<<<<< HEAD
+
 <div>
   <div class="banner">
     <!--<img src="img/osires.jpg"  style="width:100%; height:">-->
@@ -12,22 +12,21 @@
   </section>
 
 
-
-<section class="section-padding">
+<!--
 <div class="container">
-=======
 
-<div class="container er">
->>>>>>> origin/master
+
+<div class="container ">
 
     <div class="row">
 
-        <div class="col-md-8 col-md-offset-1">
+        <div class="col-md-12 col-md-offset-0">
 
-            <div class="panel panel-default">
+            <div class="panel panel-sucess">
 
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
+                -->
 
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
@@ -82,15 +81,14 @@
                             </div>
                         </div>
                     </form>
-                </div>
+              <!--  </div>
             </div>
         </div>
     </div>
-</div>
-<<<<<<< HEAD
+</div>-->
+
 </section>
 </div>
-=======
->>>>>>> origin/master
+
 
 @endsection

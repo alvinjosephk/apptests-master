@@ -1,14 +1,43 @@
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<section class="section-padding">
+<!--<div class="container">
+
+
+<div class="container er">
+
+    <div class="row">
+
+        <div class="col-md-12 col-md-offset-0">-->
+
+            <div class="panel panel-sucess">
+
+                <div class="panel-heading">Customer Details</div>
+                <div class="panel-body">
 <form class="form-horizontal">
 <fieldset>
 
 <!-- Form Name -->
-<legend>Form Name</legend>
+
 
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="Name">Name</label>
   <div class="col-md-4">
-  <input id="Name" name="Name" type="text" placeholder="Enter your Name" class="form-control input-md" required="">
+  <input id="Name" name="Name" type="text" align=centre placeholder="Enter your Name" class="form-control input-md" required="">
 
   </div>
 </div>
@@ -16,7 +45,7 @@
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="dob">Date Of Birth</label>
-  <div class="col-md-5">
+  <div class="col-md-4">
   <input id="dob" name="dob" type="text" placeholder="dd-mm-yyyy" class="form-control input-md" required="">
 
   </div>
@@ -50,7 +79,7 @@
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="house-no">House-Number</label>
-  <div class="col-md-5">
+  <div class="col-md-4">
   <input id="house-no" name="house-no" type="text" placeholder="" class="form-control input-md" required="">
 
   </div>
@@ -123,7 +152,7 @@
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="adhaar">Adhaar ID</label>
-  <div class="col-md-5">
+  <div class="col-md-4">
   <input id="adhaar" name="adhaar" type="text" placeholder="Enter your Adhaar ID" class="form-control input-md" required="">
 
   </div>
@@ -131,3 +160,9 @@
 
 </fieldset>
 </form>
+</div>
+</div>
+<!--</div>
+</div>
+</div>
+</div>-->

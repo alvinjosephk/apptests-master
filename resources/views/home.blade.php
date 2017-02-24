@@ -1,18 +1,16 @@
-<<<<<<< HEAD
-=======
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
->>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
+
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<!--<div class="container">
     <div class="row">
-<<<<<<< HEAD
         <div class="col-md-8 col-md-offset-0">
 =======
         <div class="col-md-8 col-md-offset-2">
@@ -30,7 +28,7 @@
      Choose your SIM
   <div class="row">
     <div class="col-sm-6 col-md-4">
-      <a href="/choose_sim" class="thumbnail">
+      <a href="/choose_sim-idea" class="thumbnail">
         <img src="img/idea.jpg" alt="IDEA SIM">
       </a>
     </div>
@@ -49,7 +47,7 @@
 
 </div>
 =======
->>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
+-->
                     You are logged in!
                 </div>
 
@@ -58,7 +56,7 @@
                      Choose your SIM
                   <div class="row">
                     <div class="col-sm-6 col-md-4">
-                      <a href="/choose_sim" class="thumbnail">
+                      <a href="/idea" class="thumbnail">
                         <img src="img/idea.jpg" alt="IDEA SIM">
                       </a>
                     </div>
@@ -67,7 +65,7 @@
                           <img src="img/airtel.jpg" alt="AIRTEL">
                         </a>
                       </div>
-<<<<<<< HEAD
+
                     <div class="col-sm-6 col-md-4">
                       <a href="/choose_sim" class="thumbnail">
                         <img src="img/bsnl.jpg" alt="BSNL SIM">
@@ -80,22 +78,16 @@
                         <img src="img/voda.jpg" alt="IDEA SIM">
                       </a>
                     </div>
-
-=======
                     <div class="col-sm-7 col-md-4">
                       <a href="/choose_sim" class="thumbnail">
                         <img src="img/airtel.jpg" alt="BSNL SIM">
                       </a>
                     </div>
->>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
+
                 </div>
                 </center>
 
                 </div>
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
 
 
 

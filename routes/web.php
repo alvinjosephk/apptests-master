@@ -37,15 +37,16 @@ Route::get('/contact',function()
 
 
 
-Route::get('/choose_sim',function()
+Route::get('/idea',function()
 {
-  return View::make('choose_sim');
+  return View::make('choose_sim-idea');
 
 });
 
-Route::get('view','proviewcontroller@index');
+Route::get('num','proviewcontroller@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/choose_sim','HomeController@choose');
+Route::get('/form','customers_controller@form');
