@@ -17,3 +17,14 @@ body:before{
     text-align: center;
     border: 3px solid green;
 }
+
+
+
+.idea-jumbotron {
+    position:inherit;;
+    background: #fff url("/img/idea-head.png") center center;
+    width: 100%;
+    height: 60%;
+    background-size:cover;
+    overflow: hidden;
+}
