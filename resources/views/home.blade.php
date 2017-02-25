@@ -11,17 +11,15 @@
 @section('content')
 <!--<div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-0">
-=======
+
+
         <div class="col-md-8 col-md-offset-2">
->>>>>>> 98b2ec23254ee2340e6684442b63d638630f4889
+
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
                   </div>
 <div class="panel-body">
  <center>
@@ -45,9 +43,9 @@
 </div>
 </center>
 
-</div>
-=======
+
 -->
+
                     You are logged in!
                 </div>
 
@@ -78,6 +76,10 @@
                         <img src="img/voda.jpg" alt="IDEA SIM">
                       </a>
                     </div>
+
+
+
+
                     <div class="col-sm-7 col-md-4">
                       <a href="/choose_sim" class="thumbnail">
                         <img src="img/airtel.jpg" alt="BSNL SIM">
