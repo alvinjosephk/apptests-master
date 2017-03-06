@@ -44,6 +44,9 @@ Route::get('/idea',function()
 });
 
 Route::get('num','proviewcontroller@index');
+Route::get('num1','proviewcontroller1@index');
+Route::get('num2','proviewcontroller2@index');
+Route::get('num3','proviewcontroller3@index');
 
 Auth::routes();
 

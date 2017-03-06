@@ -13,7 +13,7 @@
 
 
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<section class="section-padding">
+
 <!--<div class="container">
 
 
@@ -21,15 +21,15 @@
 
     <div class="row">
 
-        <div class="col-md-12 col-md-offset-0">-->
+        <div class="col-md-12 col-md-offset-0">
 
-            <div class="panel panel-sucess">
+            <div class="panel panel-sucess">-->
 
                 <div class="panel-heading">Customer Details</div>
                 <div class="panel-body">
 <form class="form-horizontal">
 <fieldset>
-
+<form action=""method="POST">
 <!-- Form Name -->
 
 
@@ -159,6 +159,9 @@
 </div>
 
 </fieldset>
+</form>
+<input type="submit" value="submit" style="width:50%" align:center></td>
+
 </form>
 </div>
 </div>
