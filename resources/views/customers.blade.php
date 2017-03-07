@@ -27,12 +27,12 @@
 
                 <div class="panel-heading">Customer Details</div>
                 <div class="panel-body">
-<form class="form-horizontal">
-<fieldset>
-<form action=""method="POST">
+<!--<form class="form-horizontal">
+<fieldset>-->
+<form action="/details" method="POST">
 <!-- Form Name -->
 
-
+  {{csrf_field() }}
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="Name">Name</label>
@@ -57,19 +57,19 @@
   <div class="col-md-4">
   <div class="radio">
     <label for="gender-0">
-      <input type="radio" name="gender" id="gender-0" value="1" checked="checked">
+      <input type="radio" name="gender" id="gender-0" value="male" checked="checked">
       Male
     </label>
 	</div>
   <div class="radio">
     <label for="gender-1">
-      <input type="radio" name="gender" id="gender-1" value="2">
+      <input type="radio" name="gender" id="gender-1" value="female">
       Female
     </label>
 	</div>
   <div class="radio">
     <label for="gender-2">
-      <input type="radio" name="gender" id="gender-2" value="3">
+      <input type="radio" name="gender" id="gender-2" value="other">
       Other
     </label>
 	</div>
@@ -136,13 +136,13 @@
   <div class="col-md-4">
   <div class="radio">
     <label for="nationality-0">
-      <input type="radio" name="nationality" id="nationality-0" value="1" checked="checked">
+      <input type="radio" name="nationality" id="nationality-0" value="indian" checked="checked">
       INDIAN
     </label>
 	</div>
   <div class="radio">
     <label for="nationality-1">
-      <input type="radio" name="nationality" id="nationality-1" value="2">
+      <input type="radio" name="nationality" id="nationality-1" value="other">
       Other
     </label>
 	</div>
@@ -159,7 +159,7 @@
 </div>
 
 </fieldset>
-</form>
+<!--</form>-->
 <input type="submit" value="submit" style="width:50%" align:center></td>
 
 </form>
