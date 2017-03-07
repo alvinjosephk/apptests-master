@@ -26,13 +26,13 @@
 
 
           <tr>
-            <td>Type</td>
-            <td><input type="text" name="type"></td>
+            <td>sim Type</td>
+            <td><input type="text" name="sim_type"></td>
           </tr>
 
 
           <tr>
-            <td>num_type</td>
+            <td>number type</td>
             <td><input type="text" name="num_type"></td>
           </tr>
 
@@ -40,6 +40,10 @@
           <tr>
             <td>price</td>
             <td><input type="text" name="price"></td>
+          </tr>
+          <tr>
+            <td>privider Id</td>
+            <td><input type="text" name="service_id"></td>
           </tr>
 
 

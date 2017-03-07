@@ -41,10 +41,22 @@
 
                             <ul class="nav nav-pills nav-stacked">
                               <li class="active"><a href="#">Choose the type of sim</a></li>
-                              <li><a href="/num">prepaid with ordinary number</a></li>
-                              <li><a href="#">prepaid with fancy number</a></li>
-                              <li><a href="#">postpaid with ordinary number</a></li>
-                                <li><a href="#">postpaid with fancy number</a></li>
+                              <li>  <form action="/num">
+                               <td><input type="submit" value="prepaid with ordinary number" style="width:100%";color=#555555></td>
+                             </form></li>
+                               <li>  <form action="/num1">
+                                <td><input type="submit" value="prepaid with fancy number" style="width:100%";background-color=#555555></td>
+                              </form></li>
+                            </form></li>
+                              <li>  <form action="/num2">
+                               <td><input type="submit" value="postpaid with ordinary number" style="width:100%";background-color=#555555></td>
+                             </form></li>
+                           </form></li>
+                             <li>  <form action="/num3">
+                              <td><input type="submit" value="postpaid with fancy number" style="width:100%";background-color=#555555></td>
+                            </form></li>
+
+
                             </ul>
       <!--      {{ Form::select('type',array('prepaid'=>'Prepaid','postpaid'=>'PostPaid'),'Prepaid') }}
 

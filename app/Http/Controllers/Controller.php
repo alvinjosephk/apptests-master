@@ -18,17 +18,30 @@ function insert(Request $req)
 {
     $number= $req->input('number');
     $sim_status=$req->input('sim_status');
-    $type=$req->input('type');
+    $type=$req->input('sim_type');
     $num_type=$req->input('num_type');
     $price=$req->input('price');
+     $serviceid=$req->input('service_id');
 
-    $data= array('number'=>$number,'sim_status'=>$sim_status,'type'=>$type,'num_type'=>$num_type,'price'=>$price);
+  $data= array('number'=>$number,'sim_status'=>$sim_status,'sim_type'=>$type,'num_type'=>$num_type,'price'=>$price,'service_id'=>$serviceid);
 
-    DB::table('mobile_numbers')->insert($data);
+    DB::table('mobnum')->insert($data);
 
 
     echo 'Data Entered Successfully';
+  }
+    function service(Request $req)
+    {
+        $provider= $req->input('provider_name');
+
+
+        $data= array('provider_name'=>$provider);
+
+        DB::table('newservices')->insert($data);
+
+
+        echo 'Data Entered Successfully';
+
 
 }
-
 }

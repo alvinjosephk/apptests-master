@@ -16,8 +16,12 @@ Route::get('/', function () {
 Route::get('/in', function () {
     return view('insertForm');
 });
+Route::get('/inp', function () {
+    return view('insertprovider');
+});
 
 Route::post('/insert','Controller@insert');
+Route::post('/insertpro','Controller@service');
  /*{
     return View('auth/register');
 });*/
@@ -44,6 +48,9 @@ Route::get('/idea',function()
 });
 
 Route::get('num','proviewcontroller@index');
+Route::get('num1','proviewcontroller1@index');
+Route::get('num2','proviewcontroller2@index');
+Route::get('num3','proviewcontroller3@index');
 
 Auth::routes();
 
