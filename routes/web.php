@@ -16,8 +16,12 @@ Route::get('/', function () {
 Route::get('/in', function () {
     return view('insertForm');
 });
+Route::get('/inp', function () {
+    return view('insertprovider');
+});
 
 Route::post('/insert','Controller@insert');
+Route::post('/insertpro','Controller@service');
  /*{
     return View('auth/register');
 });*/
