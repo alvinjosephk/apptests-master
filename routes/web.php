@@ -25,7 +25,7 @@ Route::post('/insertpro','Controller@service');
  /*{
     return View('auth/register');
 });*/
-
+Route::post('/details','customers_controller@insert');
 
 Route::get('/about',function()
 {
