@@ -119,7 +119,7 @@
          @foreach ($users as $user)
 
          <tr ><form action="/form">
-        <!--  <a href="#">  <td><a href="/form">{{ $user->number}}</a> --> <td><input type="submit" value="{{ $user->number}}" style="width:300%"></td>
+        <!--  <a href="#">  <td><a href="/form">{{ $user->number}}</a> --> <td><input type="submit" value="{{ $user->number}}" style="width:250%"></td>
 
          </tr>
          @endforeach

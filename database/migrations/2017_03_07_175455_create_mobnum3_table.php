@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMobnum2Table extends Migration
+class CreateMobnum3Table extends Migration
 {
     /**
      * Run the migrations.
@@ -19,9 +19,8 @@ class CreateMobnum2Table extends Migration
         $table->string('sim_type');
         $table->string('num_type');
         $table->float('price');
-      //  $table->increments('service_id');
-        $table->foreign('service_id')->references('service_id')->on('newservices');
-   });  //  //
+      $table->integer('service_id')->unsigned();
+        $table->foreign('service_id')->references('service_id')->on('newservices');});//
     }
 
     /**

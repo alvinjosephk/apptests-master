@@ -17,7 +17,8 @@ class CreateCustomertableTable extends Migration
       Schema::create('customer',function(Blueprint $table){
 
         $table->bigincrements('reg-id')->primary;
-
+       $table->integer('id');
+       $table->foreign('id')->references('id')->on('users');
         $table->string('name');
         $table->date('DoB');
         $table->char('gender');
@@ -28,7 +29,7 @@ class CreateCustomertableTable extends Migration
         $table->string('district');
         $table->string('state');
         $table->string('email');
-      //  $table->foreign('email')->references('email')->on('users');
+
         $table->string('nationality');
         $table->bigInteger('aadhaar');
 
