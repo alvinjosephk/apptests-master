@@ -22,9 +22,15 @@
 
 @section('content')
 
+<div class="idea-jumbotron">
+    <div class="container">
+      </div>
+</div>
+
+
 <div class="container">
     <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-6col-md-offset-4">
             <div class="panel panel-primary">
 
               <!--  <div class="panel-heading">Get your SIM today</div>-->
@@ -48,6 +54,8 @@
                               <li><a href="#">postpaid with ordinary number</a></li>
                                 <li><a href="#">postpaid with fancy number</a></li>
                             </ul>
+
+
       <!--      {{ Form::select('type',array('prepaid'=>'Prepaid','postpaid'=>'PostPaid'),'Prepaid') }}
 
             Choose the number type:
