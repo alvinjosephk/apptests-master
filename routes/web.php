@@ -33,11 +33,7 @@ Route::get('/about',function()
 
 });
 
-Route::get('/contact',function()
-{
-  return View::make('contact');
-
-});
+Route::get('/admin','AdminController@admin');
 
 
 

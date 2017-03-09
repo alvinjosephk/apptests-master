@@ -29,4 +29,22 @@ body:before{
     overflow: hidden;
 }
 
+.admin-jumbotron {
+    position:fixed;
+    background: #fff url("/img/admin_jmp.jpg") center center;
+    width: 50%;
+    height: 30%;
+    margin-top:75px;
+    margin-left:300px;
+    background-size:cover;
+    overflow:auto;
+
+}
+
+
+
+
+
+
+
 .button{ background-color: #000000}
