@@ -7,13 +7,10 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
-
-
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
+ <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+ @extends('layouts.app')
+@section('content')
+<meta charset="utf-8">
 <!--<div class="container">
 
 
@@ -37,7 +34,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="Name">Name</label>
   <div class="col-md-4">
-  <input id="Name" name="Name" type="text" align=centre placeholder="Enter your Name" class="form-control input-md" required="">
+  <input id="name" name="name" type="text" align=centre placeholder="Enter your Name" class="form-control input-md" required="">
 
   </div>
 </div>
@@ -46,7 +43,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="dob">Date Of Birth</label>
   <div class="col-md-4">
-  <input id="dob" name="dob" type="text" placeholder="dd-mm-yyyy" class="form-control input-md" required="">
+  <input id="dob" name="dob" type="date" placeholder="dd-mm-yyyy" class="form-control input-md" required="">
 
   </div>
 </div>
@@ -153,7 +150,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="adhaar">Adhaar ID</label>
   <div class="col-md-4">
-  <input id="adhaar" name="adhaar" type="text" placeholder="Enter your Adhaar ID" class="form-control input-md" required="">
+  <input id="aadhaar" name="aadhaar" type="text" placeholder="Enter your Adhaar ID" class="form-control input-md" required="">
 
   </div>
 </div>
@@ -169,3 +166,4 @@
 </div>
 </div>
 </div>-->
+@endsection
