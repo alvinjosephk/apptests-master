@@ -22,26 +22,6 @@
 
                   </div>
 <div class="panel-body">
- <center>
-     Choose your SIM
-  <div class="row">
-    <div class="col-sm-6 col-md-4">
-      <a href="/choose_sim-idea" class="thumbnail">
-        <img src="img/idea.jpg" alt=" SIM">
-      </a>
-    </div>
-      <div class="col-sm-6 col-md-4">
-        <a href="/choose_sim" class="thumbnail">
-          <img src="img/airtel.jpg" alt="AIRTEL">
-        </a>
-      </div>
-    <div class="col-sm-7 col-md-4">
-      <a href="/choose_sim" class="thumbnail">
-        <img src="img/bsnl.jpg" alt="BSNL SIM">
-      </a>
-    </div>
-</div>
-</center>
 
 
 -->
@@ -72,7 +52,7 @@
 
                     <div class="horizontal">
                       <div class="col-md-2">
-                        <a href="/choose_sim" class="thumbnail">
+                        <a href="/airtel" class="thumbnail">
                           <img src="img/airtel.jpg" alt="AIRTEL">
                         </a>
                       </div> </div>
@@ -80,7 +60,7 @@
 
                       <div class="horizontal">
                     <div class="col-md-2">
-                      <a href="/choose_sim" class="thumbnail">
+                      <a href="/bsnl" class="thumbnail">
                         <img src="img/bsnl2.jpg" alt="BSNL SIM">
                       </a>
                     </div></div>
@@ -89,7 +69,7 @@
 
                     <div class="horizontal">
                     <div class="col-md-2">
-                      <a href="/choose_sim" class="thumbnail">
+                      <a href="/vodafone" class="thumbnail">
                         <img src="img/voda.jpg" alt="IDEA SIM">
                       </a>
                     </div></div>

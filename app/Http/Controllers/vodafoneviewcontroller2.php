@@ -6,7 +6,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 
-class proviewcontroller2 extends Controller
+
+class vodafoneviewcontroller2 extends Controller
 {
   public function index(){
    // $users = DB::select('select * from mobile_numbers');

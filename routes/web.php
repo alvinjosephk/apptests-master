@@ -22,6 +22,7 @@ Route::get('/inp', function () {
 
 Route::post('/insert','Controller@insert');
 Route::post('/insertpro','Controller@service');
+Route::post('numinsert','numcontroller@insert');
  /*{
     return View('auth/register');
 });*/
@@ -47,10 +48,44 @@ Route::get('/idea',function()
 
 });
 
+Route::get('/bsnl',function()
+{
+  return View::make('choose_sim-bsnl');
+
+});
+
+Route::get('/airtel',function()
+{
+  return View::make('choose_sim-airtel');
+
+});
+
+Route::get('/vodafone',function()
+{
+  return View::make('choose_sim-vodafone');
+
+});
+
+
 Route::get('num','proviewcontroller@index');
 Route::get('num1','proviewcontroller1@index');
 Route::get('num2','proviewcontroller2@index');
 Route::get('num3','proviewcontroller3@index');
+
+Route::get('anum','airtelviewcontroller@index');
+Route::get('anum1','airtelviewcontroller1@index');
+Route::get('anum2','airtelviewcontroller2@index');
+Route::get('anum3','airtelviewcontroller3@index');
+
+Route::get('bnum','bsnlviewcontroller@index');
+Route::get('bnum1','bsnlviewcontroller1@index');
+Route::get('bnum2','bsnlviewcontroller2@index');
+Route::get('bnum3','bsnlviewcontroller3@index');
+
+Route::get('vnum','vodafoneviewcontroller@index');
+Route::get('vnum1','vodafoneviewcontroller1@index');
+Route::get('vnum2','vodafoneviewcontroller2@index');
+Route::get('vnum3','vodafoneviewcontroller3@index');
 
 Auth::routes();
 

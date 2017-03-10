@@ -29,4 +29,31 @@ body:before{
     overflow: hidden;
 }
 
+.airtel-jumbotron {
+    position:inherit;;
+    background: #fff url("/img/airtel-head.jpg") center center;
+    width: 100%;
+    height: 30%;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.bsnl-jumbotron {
+    position:inherit;;
+    background: #fff url("/img/bsnl-head.jpg") center center;
+    width: 100%;
+    height: 30%;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.vodafone-jumbotron {
+    position:inherit;;
+    background: #fff url("/img/vodafone.jpg") center center;
+    width: 100%;
+    height: 30%;
+    background-size:cover;
+    overflow: hidden;
+}
+
 .button{ background-color: #000000}
