@@ -30,7 +30,7 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #548;
+    background: #000;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -57,10 +57,11 @@
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 250px;
+    background-color:#001;
+    width: 200px;
     margin: 0;
     padding: 10;
-    list-style: none;
+    list-style:none;
 }
 
 .sidebar-nav li {
@@ -72,11 +73,11 @@
     display:block;
     font-weight: bold;
     text-decoration:inherit;
-    color: #999999;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {
-    text-decoration: none;
+    text-decoration:inherit;
     color: #000;
     background: rgba(0,0,0,0.2);
 }
@@ -89,15 +90,15 @@
 .sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 100px;
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #587;
+    color: #000;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #000;
     background:#458;
 }
 

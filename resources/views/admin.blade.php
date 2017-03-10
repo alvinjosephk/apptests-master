@@ -31,45 +31,91 @@
         <br>
         <div class="sidebar-wrapper">
 
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand-inverse">
+            <ul class="sidebar-nav nav">
+                <li class="sidebar-brand">
                     <a href="#">
-                        Start Bootstrap
+
                     </a>
                 </li>
                 <li>
                     <a href="#">Add Number</a>
                 </li>
-                <li>
-                    <a href="#"></a>
-                </li>
+
                 <li>
                     <a href="#">Add Offer</a>
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href=" "></a>
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href=" "></a>
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href=" "></a>
                 </li>
                 <li>
-                    <a href="#"></a>
+                    <a href=" "></a>
                 </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                
             </ul>
         </div>
 
     </div>
 
 .<br>.<br> .<br>
-    <div class="col-md-1 col-md-offset-3">
-
-    </div>
+    <div class="col-md-5 col-md-offset-3">
 <input type="text" name="search" placeholder="Search..">
-</body>
+    </div>
 
+</body>
 
 
 
