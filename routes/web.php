@@ -22,7 +22,7 @@ Route::get('/inp', function () {
 
 Route::post('/insert','Controller@insert');
 Route::post('/insertpro','Controller@service');
-Route::post('numinsert','numcontroller@insert');
+Route::post('/numinsert','numcontroller@insert');
  /*{
     return View('auth/register');
 });*/
@@ -88,3 +88,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 Route::get('/choose_sim','HomeController@choose');
 Route::get('/form','customers_controller@form');
+Route::get('/update','numcontroller@update');
