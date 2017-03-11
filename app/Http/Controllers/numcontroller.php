@@ -16,8 +16,23 @@ class numcontroller extends Controller
 
     $data= array('number'=>$number);
 
-      DB::table('sim')->insert($data);
-      return view('customers');
+
+            DB::table('sim')->insert($data);
+     return view('confirmidea',['number'=>$number]);
 
   }  //
+  function update(Request $req)
+  {
+
+    //$users = DB::table('sim')->select('number')->where('reg-id','=','null')->get();
+
+$number= $req->input('number');
+//  DB::update('update mobnum set sim_status =?  where number = ?',['selected',$number]);
+  DB::table('mobnum')
+            ->where('number', $number)
+            ->update(['sim_status' => 'selected']);
+
+   return view('customers');
+
+  }
 }

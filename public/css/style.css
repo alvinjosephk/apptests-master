@@ -5,8 +5,13 @@
   }
 body:before{
     background:  url("/img/background.jpg") no-repeat right top;
- display: block; content:""; position: absolute; z-index:-1;
-   top:0; left: 0; right: 0; height: 100%;
+ display: block;
+  content:""; 
+ position: absolute; z-index:-1;
+   top:0;
+   left: 0;
+   right: 0;
+    height: 100%;
    opacity:.2;
 }
 .center {
