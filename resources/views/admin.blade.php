@@ -104,16 +104,41 @@
                 <li>
                     <a href=" "></a>
                 </li>
-                
+
             </ul>
         </div>
 
     </div>
 
-.<br>.<br> .<br>
-    <div class="col-md-5 col-md-offset-3">
-<input type="text" name="search" placeholder="Search..">
-    </div>
+
+
+<div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-default">
+                   <div class="panel-heading">Search User </div>
+                   <div class="panel-body">
+
+                     <div class="row">
+                        <form action="/admin" method="post">
+                            {{csrf_field()}}
+                             <div class="col-lg-11">
+                                 <div class="input-group">
+                                     <span class="input-group-btn">
+                                         <input type="submit" value="Validate" class="btn btn-default" type="button">
+                                     </span>
+                                     <input type="text" name="id" class="form-control" placeholder="Search for...">
+                                 </div>
+                             </div>
+                     </form>
+                 </div>
+                 @if($user)
+                 @foreach($user as $u)
+                 <p>{{$u->name}}   </p>       {{--like wise full details --}}
+                 @endforeach
+                 @endif
+
+
+</div>
+</div>
 
 </body>
 

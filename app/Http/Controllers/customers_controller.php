@@ -47,4 +47,8 @@ class customers_controller extends Controller
     echo 'Data Entered Successfully';
 
 
+
+  }
+}
+=======
   }}
