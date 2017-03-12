@@ -88,4 +88,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 Route::get('/choose_sim','HomeController@choose');
 Route::get('/form','customers_controller@form');
-Route::get('/update','numcontroller@update');
+Route::post('/update','numcontroller@update');
+Route::post('/viewid','simcontroller@index');

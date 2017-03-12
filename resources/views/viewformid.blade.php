@@ -21,12 +21,11 @@
 <br>
 <br>
 <br>
-    Are you sure you want to select this number?
+    click here to view your form id
+    show the form-id at any provider stores to get your sim
+
+   <a href="/viewid" class="btn btn-info" role="button">view form-id</a>   
 
 
-    <a href="/update" class="btn btn-info" role="button">yes</a>    <a href="/idea" class="btn btn-info" role="button">             no</a>
-
-
-    </div>  </div>  </div>
 </div>
 @endsection
