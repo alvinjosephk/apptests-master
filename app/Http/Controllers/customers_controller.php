@@ -38,13 +38,27 @@ class customers_controller extends Controller
     $data= array('name'=>$name,'dob'=>$DoB,'gender'=>$gender,'house-no'=>$houseno,'street'=>$street,'locality'=>$locality,'city'=>$city,'district'=>$district,'state'=>$state,'nationality'=>$nationality,'aadhaar'=>$aadhaar);
 
     DB::table('customer')->insert($data);
-    $user= DB::table('customer')->select('reg-id')->where('reg-id',DB::raw("(select max(`reg-id`) from customer)"))->get();
+
+    $user= DB::table('customer')->select('regid','name')->where('regid',DB::raw("(select max(`regid`) from customer)"))->get();
+    //$num=DB::table('sim')->select('simId')->where('simId',DB::raw("(select max(`simId`) from sim)"))->get()
+
+  foreach ($user as $u) {
+    # code...
     DB::table('sim')
-             ->where('simId',DB::raw("(select max(`simId`) from sim)"))
-            ->update(['reg-id' =>$user]);
+            ->where('reg-id',0)
+          ->update(['reg-id' =>DB::raw($u->regid)]);
 
+  }
+  return view('viewformid',['user'=>$user]);
+//   DB::table('sim')
+//           ->where('reg-id',0)
+//         ->update(['reg-id' =>$u]);
 
-    return $user;
+  //  $user=DB::table('sim')->select('simId')->where('reg-id','')->get();
+  //  return $user;
+  //DB::table('sim')->insert(
+    //['reg-id' => 7777]
+//)->where('simid',$num);
 
 
   }

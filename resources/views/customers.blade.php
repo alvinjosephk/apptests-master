@@ -78,11 +78,7 @@
       <input type="radio" name="gender" id="gender-2" value="other">
       Other
     </label>
-    @if ($errors->has('gender'))
-        <span class="help-block">
-            <strong>{{ $errors->first('gender') }}</strong>
-        </span>
-    @endif
+  
 	</div>
   </div>
 </div>

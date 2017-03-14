@@ -25,11 +25,11 @@
 
         <div class="col-md-12 col-md-offset-0">
 
-            <div class="panel panel-sucess">
+            <div class="panel panel-sucess"></div>
 
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
-                -->
+
 
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}

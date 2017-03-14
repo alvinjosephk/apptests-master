@@ -12,19 +12,29 @@
 <div class="container">
   <div class="row">
 
-><div class="col-md-4">
+<div class="col-md-4">
 
 </div>
   <div class="col-md-4">
-    <div class="panel-body">
+    <div class="panel panel-success">
+  <div class="panel-heading">Sim registration complete</div>
+  <div class="panel-body"> Your Registration id is
+    @foreach ($user as $u)
+    <tr>
+       <td>{{ $u->regid }}</td>
+    </tr>
+    <br>
+    <tr>
+      <td> show the registration id at any sim store to get your sim</td>
+</tr>
+    @endforeach
+  </div>
 
-<br>
-<br>
-<br>
-    click here to view your form id
-    show the form-id at any provider stores to get your sim
 
-   <a href="/viewid" class="btn btn-info" role="button">view form-id</a>   
+
+
+
+
 
 
 </div>
