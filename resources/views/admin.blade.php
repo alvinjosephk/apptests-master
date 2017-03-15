@@ -132,7 +132,16 @@
                  </div>
                  @if($user)
                  @foreach($user as $u)
-                 <p>{{$u->name}}   </p>       {{--like wise full details --}}
+                 <p>{{$u->name}}
+                    {{$u->DoB}}
+                    {{$u->gender}}
+                    {{$u->house-no}}
+                    {{$u->street}}
+                    {{$u->locality}}
+                    {{$u->city}}
+                    {{$u->district}}
+                    {{$u->state}}
+                    {{$u->DoB}}</p>       {{--like wise full details --}}
                  @endforeach
                  @endif
 
