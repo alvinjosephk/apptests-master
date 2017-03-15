@@ -129,6 +129,12 @@
         margin-right: 0;
     }
 
+.admin_approve{
+  text-decoration-color: #9099
+}
+
+
+
     .input[type=text] {
         width: 130px;
         -webkit-transition: width 0.4s ease-in-out;
