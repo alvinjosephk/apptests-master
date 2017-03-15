@@ -28,7 +28,7 @@ class numcontroller extends Controller
                   ->update(['sim_status' =>'selected']);
      return view('customers');
 
-  }  //
+  }  /////
   function update(Request $req)
   {
 
