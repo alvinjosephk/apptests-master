@@ -90,7 +90,7 @@
 
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <div class="container">
-  <div class="col-md-4 col-md-offset-4">
+  <div class="col-md-5 col-md-offset-3">
     <div class="panel panel-primary">
     <div class="panel-body" overflow:scroll>
    <head>
@@ -110,7 +110,26 @@
            {{csrf_field() }}
          <input  type="hidden" name='num' value='{{ $user->number}}'>
          <td><input type="submit" value="{{ $user->number}}" style="width:250%"></td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
+         <td>                    </td>
 
+         <td>price</td>
+        <td> {{$user->price}}</td>
          </tr>
        </form>
          @endforeach

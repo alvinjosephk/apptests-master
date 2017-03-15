@@ -24,7 +24,7 @@ class AdminController extends Controller
     public function search(Request $request)
        {
            $id= $request->input('id');
-           $user =Customer::where('reg-id',$id)->get();
+           $user =Customer::where('regid',$id)->get();
            return view('admin')->withUser($user);
        }
 

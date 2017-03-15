@@ -12,21 +12,30 @@
 <div class="container">
   <div class="row">
 
-><div class="col-md-4">
+<div class="col-md-4">
 
 </div>
   <div class="col-md-4">
-    <div class="panel-body">
+    <div class="panel panel-success">
+  <div class="panel-heading">Sim registration complete</div>
+  <div class="panel-body"> Your Registration id is
+    @foreach ($user as $u)
+    <tr>
+       <td>{{ $u->regid }}</td>
+    </tr>
+    <br>
+    <tr>
+      <td> show the registration id at any sim store to get your sim</td>
+</tr>
+    @endforeach
+  </div>
 
-<br>
-<br>
-<br>
-    Are you sure you want to select this number?
 
 
-    <a href="/update" class="btn btn-info" role="button">yes</a>    <a href="/idea" class="btn btn-info" role="button">             no</a>
 
 
-    </div>  </div>  </div>
+
+
+
 </div>
 @endsection

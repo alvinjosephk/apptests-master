@@ -44,6 +44,10 @@
 
                   <div class="horizontal">
                     <div class="col-md-2 col-md-offset=2">
+
+                    
+                    </div>
+                    <div class="col-md-2 col-md-offset=2">
                       <a href="/idea" class="thumbnail">
                         <img src="img/idea.jpg" alt="IDEA SIM">
                       </a>

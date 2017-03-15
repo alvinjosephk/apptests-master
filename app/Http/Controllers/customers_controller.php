@@ -14,10 +14,6 @@ class customers_controller extends Controller
   public function form()
   {
       return view('customers');
-
-  }
-}
-
   }  //
 
  public function insert(Request $req)
@@ -43,12 +39,27 @@ class customers_controller extends Controller
 
     DB::table('customer')->insert($data);
 
+    $user= DB::table('customer')->select('regid','name')->where('regid',DB::raw("(select max(`regid`) from customer)"))->get();
+    //$num=DB::table('sim')->select('simId')->where('simId',DB::raw("(select max(`simId`) from sim)"))->get()
 
-    echo 'Data Entered Successfully';
+  foreach ($user as $u) {
+    # code...
+    DB::table('sim')
+            ->where('reg-id',0)
+          ->update(['reg-id' =>DB::raw($u->regid)]);
 
+  }
+  return view('viewformid',['user'=>$user]);
+//   DB::table('sim')
+//           ->where('reg-id',0)
+//         ->update(['reg-id' =>$u]);
+
+  //  $user=DB::table('sim')->select('simId')->where('reg-id','')->get();
+  //  return $user;
+  //DB::table('sim')->insert(
+    //['reg-id' => 7777]
+//)->where('simid',$num);
 
 
   }
 }
-=======
-  }}

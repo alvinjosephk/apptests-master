@@ -48,7 +48,11 @@
   <label class="col-md-1 control-label" for="dob">Date Of Birth</label>
   <div class="col-md-2">
   <input id="dob" name="dob" type="date" placeholder="dd-mm-yyyy" class="form-control input-md" required="">
-
+  @if ($errors->has('name'))
+      <span class="help-block">
+          <strong>{{ $errors->first('dob') }}</strong>
+      </span>
+  @endif
   </div>
 </div>
 
@@ -61,6 +65,7 @@
       <input type="radio" name="gender" id="gender-0" value="male" checked="checked">
       Male
     </label>
+
 	</div>
   <div class="radio">
     <label for="gender-1">
@@ -73,11 +78,7 @@
       <input type="radio" name="gender" id="gender-2" value="other">
       Other
     </label>
-    @if ($errors->has('gender'))
-        <span class="help-block">
-            <strong>{{ $errors->first('gender') }}</strong>
-        </span>
-    @endif
+  
 	</div>
   </div>
 </div>
@@ -100,7 +101,11 @@
   <label class="col-md-1 control-label" for="street">Street</label>
   <div class="col-md-2">
   <input id="street" name="street" type="text" placeholder="" class="form-control input-md" required="">
-
+  @if ($errors->has('name'))
+      <span class="help-block">
+          <strong>{{ $errors->first('street') }}</strong>
+      </span>
+  @endif
   </div>
 </div>
 
