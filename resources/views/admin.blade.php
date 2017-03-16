@@ -110,11 +110,45 @@
 
     </div>
 
+    <li>
+        <a href=" "></a>
+    </li>  <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
+      <li>
+          <a href=" "></a>
+      </li>
 
 
-<div class="col-md-6 col-md-offset-3">
-    <div class="panel panel-default">
-                   <div class="panel-heading">Search User </div>
+<div class="col-md-6 col-md-offset-4">
+
                    <div class="panel-body">
 
                      <div class="row">
@@ -130,10 +164,11 @@
                              </div>
                      </form>
                  </div>
+                   <div class="panel panel-default">
                  @if($user)
                  @foreach($user as $u)
 
-                 <p> <div class="admin_approve">
+                 <p> <div class="admin_approve" overflow="scroll">
 
                 Name:{{$u->name}}<br>
                   Date of Birth:{{$u->DoB}}<br>
@@ -148,7 +183,7 @@
                   Nationality:{{$u->nationality}}<br>
                   Aadhar:{{$u->aadhaar}}<br>
                  </div></p>
-
+</div>
                  @endforeach
                  @endif
 
