@@ -21,7 +21,7 @@ class RedirectIfAuthenticated
           if(Auth::User()->role==2){
               return redirect('/admin');
           }
-            return redirect('/home');
+            return redirect('/homes');
         }
 
         return $next($request);

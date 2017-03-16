@@ -69,6 +69,7 @@ Route::get('vnum3','vodafoneviewcontroller3@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/homes','HomeController@dashboard');
 Route::get('/choose_sim','HomeController@choose');
 Route::get('/form','customers_controller@form');
 Route::post('/update','numcontroller@update');
