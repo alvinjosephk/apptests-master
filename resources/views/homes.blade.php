@@ -20,7 +20,7 @@
             </a>
         </li>
         <li>
-            <a href="#">take new sim</a>
+            <a href="/home">take new sim</a>
         </li>
 
         <li>
