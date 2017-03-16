@@ -132,14 +132,36 @@
                  </div>
                  @if($user)
                  @foreach($user as $u)
-                 <p>{{$u->name}}   </p>       {{--like wise full details --}}
+
+                 <p> <div class="admin_approve">
+
+                Name:{{$u->name}}<br>
+                  Date of Birth:{{$u->DoB}}<br>
+                  Gender: {{$u->gender}}<br>
+
+
+                  Street:{{$u->street}}<br>
+                  Locality:{{$u->locality}}<br>
+                  City:{{$u->city}}<br>
+                  District:{{$u->district}}<br>
+                  State:{{$u->state}}<br>
+                  Nationality:{{$u->nationality}}<br>
+                  Aadhar:{{$u->aadhaar}}<br>
+                 </div></p>
+
                  @endforeach
                  @endif
 
 
-</div>
-</div>
 
+
+
+</div>
+<button type="submit" class="btn btn-primary">
+    Approve
+</button>
+
+</div>
 </body>
 
 
