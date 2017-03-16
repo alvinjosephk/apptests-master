@@ -144,16 +144,22 @@
                   City:{{$u->city}}<br>
                   District:{{$u->district}}<br>
                   State:{{$u->state}}<br>
-                  Nationality{{$u->nationality}}<br>
+                  Nationality:{{$u->nationality}}<br>
                   Aadhar:{{$u->aadhaar}}<br>
                  </div></p>
                  @endforeach
                  @endif
 
 
-</div>
-</div>
 
+
+
+</div>
+<button type="submit" class="btn btn-primary">
+    Approve
+</button>
+
+</div>
 </body>
 
 

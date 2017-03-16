@@ -130,7 +130,9 @@
     }
 
 .admin_approve{
-  text-decoration-color: #9099
+          font-family:monospace;
+          font-size:14px;
+          font-style: oblique;
 }
 
 
