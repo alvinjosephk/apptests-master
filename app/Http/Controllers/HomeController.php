@@ -52,7 +52,10 @@ public function vodafone()
 }
 
 
-
+public function dashboard()
+{
+  return view('homes');
+}
 
 
 }
