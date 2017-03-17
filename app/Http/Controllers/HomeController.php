@@ -29,4 +29,33 @@ class HomeController extends Controller
   {
       return view('choose_sim');
   }
+
+//bypass fix
+  public function idea()
+{
+  return view('choose_sim-idea');
+}
+
+public function bsnl()
+{
+  return view('choose_sim-bsnl');
+}
+
+public function airtel()
+{
+  return view('choose_sim-airtel');
+}
+
+public function vodafone()
+{
+  return view('choose_sim-vodafone');
+}
+
+
+public function dashboard()
+{
+  return view('homes');
+}
+
+
 }

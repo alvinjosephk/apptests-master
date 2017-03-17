@@ -38,29 +38,12 @@ Route::get('/admin','AdminController@admin');
 Route::post('/admin','AdminController@search');
 
 
-Route::get('/idea',function()
-{
-  return View::make('choose_sim-idea');
+Route::get('/idea','HomeController@idea');
+Route::get('/bsnl','HomeController@bsnl');
+Route::get('/airtel','HomeController@airtel');
+Route::get('/vodafone','HomeController@vodafone');
 
-});
 
-Route::get('/bsnl',function()
-{
-  return View::make('choose_sim-bsnl');
-
-});
-
-Route::get('/airtel',function()
-{
-  return View::make('choose_sim-airtel');
-
-});
-
-Route::get('/vodafone',function()
-{
-  return View::make('choose_sim-vodafone');
-
-});
 
 
 Route::get('num','proviewcontroller@index');
@@ -86,6 +69,7 @@ Route::get('vnum3','vodafoneviewcontroller3@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/homes','HomeController@dashboard');
 Route::get('/choose_sim','HomeController@choose');
 Route::get('/form','customers_controller@form');
 Route::post('/update','numcontroller@update');
