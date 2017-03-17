@@ -78,19 +78,19 @@
       <input type="radio" name="gender" id="gender-2" value="other">
       Other
     </label>
-  
+
 	</div>
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="house-no">House-Number</label>
+  <label class="col-md-2 control-label" for="houseno">House-Number</label>
   <div class="col-md-1">
-  <input id="house-no" name="house-no" type="text" placeholder="" class="form-control input-md" required="">
-  @if ($errors->has('house-no'))
+  <input id="houseno" name="houseno" type="text" placeholder="" class="form-control input-md" required="">
+  @if ($errors->has('houseno'))
       <span class="help-block">
-          <strong>{{ $errors->first('house-no') }}</strong>
+          <strong>{{ $errors->first('houseno') }}</strong>
       </span>
   @endif
   </div>
