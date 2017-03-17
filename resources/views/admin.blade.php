@@ -132,6 +132,7 @@
                  </div>
                  @if($user)
                  @foreach($user as $u)
+
                  <p> <div class="admin_approve">
 
                 Name:{{$u->name}}<br>
@@ -147,6 +148,7 @@
                   Nationality:{{$u->nationality}}<br>
                   Aadhar:{{$u->aadhaar}}<br>
                  </div></p>
+
                  @endforeach
                  @endif
 
