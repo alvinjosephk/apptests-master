@@ -114,7 +114,23 @@
       <table  class="table-condensed">
          <tr class="success">
         <td>Numbers</td>
+        <td>                    </td>
+         <td>                    </td>
+          <td>                    </td>
+           <td>                    </td>
+            <td>                    </td>
+             <td>                    </td>
+              <td>                    </td>
+     <td>                    </td>
+     <td>                    </td>
+     <td>                    </td>
+     <td>                    </td>
+     <td>                    </td>
+ <td>                    </td>
+  <td>                    </td>
+   <td>                    </td>
 
+       <td>price</td>
 
          </tr>
          @foreach ($users as $user)
@@ -137,12 +153,10 @@
          <td>                    </td>
          <td>                    </td>
          <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
 
-         <td>price</td>
-         <td> {{$user->price}}</td>
+   <td>                    </td>
+   <td><input type="submit" value="Rs {{$user->price}}" style="width:100%"></td>
+
 
          </tr>
          @endforeach

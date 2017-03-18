@@ -27,7 +27,7 @@
 
             <div class="panel panel-sucess"></div>
 
-                <div class="panel-heading">Login</div>
+              
                 <div class="panel-body">
 
 

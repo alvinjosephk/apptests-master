@@ -17,10 +17,10 @@
 
 
 
-<div class="admin-jumbotron">
+
     <div class="container">
       </div>
-</div>
+
 
 
 
@@ -62,6 +62,12 @@
                 <li>
                     <a href=" "></a>
                 </li>
+                <li>
+                    <a href=" "></a>
+                </li>
+                <li>
+                    <a href=" "></a>
+                </li
                 <li>
                     <a href=" "></a>
                 </li>
@@ -121,21 +127,7 @@
       <li>
           <a href=" "></a>
       </li>
-      <li>
-          <a href=" "></a>
-      </li>
-      <li>
-          <a href=" "></a>
-      </li>
-      <li>
-          <a href=" "></a>
-      </li>
-      <li>
-          <a href=" "></a>
-      </li>
-      <li>
-          <a href=" "></a>
-      </li>
+
       <li>
           <a href=" "></a>
       </li>
@@ -147,19 +139,22 @@
       </li>
 
 
-<div class="col-md-6 col-md-offset-4">
+
+
+<div class="col-md-8 col-md-offset-3">
 
                    <div class="panel-body">
 
                      <div class="row">
                         <form action="/admin" method="post">
                             {{csrf_field()}}
-                             <div class="col-lg-11">
+                             <div class="col-lg-12">
                                  <div class="input-group">
+
+                                     <input type="text" name="id" class="form-control" placeholder="Search for...">
                                      <span class="input-group-btn">
                                          <input type="submit" value="Validate" class="btn btn-default" type="button">
                                      </span>
-                                     <input type="text" name="id" class="form-control" placeholder="Search for...">
                                  </div>
                              </div>
                      </form>
@@ -169,21 +164,24 @@
                  @foreach($user as $u)
 
                  <p> <div class="admin_approve" overflow="scroll">
+                Name:   <font  face= 'verdana' color=black>
+{{$u->name}}</font>
+                <br>
+                        Gender:<font  face= 'verdana' color=black> {{$u->gender}}</font><br>
 
-                Name:{{$u->name}}<br>
-                  Date of Birth:{{$u->DoB}}<br>
-                  Gender: {{$u->gender}}<br>
-
-
-                  Street:{{$u->street}}<br>
-                  Locality:{{$u->locality}}<br>
-                  City:{{$u->city}}<br>
-                  District:{{$u->district}}<br>
-                  State:{{$u->state}}<br>
-                  Nationality:{{$u->nationality}}<br>
-                  Aadhar:{{$u->aadhaar}}<br>
+                  Street:    <font  face= 'verdana' color=black>{{$u->street}}</font><br>
+                  Locality:<font  face= 'verdana' color=black>{{$u->locality}}</font><br>
+                  City:<font  face= 'verdana' color=black>{{$u->city}}</font><br>
+                  District:<font  face= 'verdana' color=black>{{$u->district}}</font><br>
+                  State:<font  face= 'verdana' color=black>{{$u->state}}</font><br>
+                  Nationality:<font  face= 'verdana' color=black>{{$u->nationality}}</font><br>
+                  Aadhar:<font  face= 'verdana' color=black>{{$u->aadhaar}}</font><br>
+                   {{$u->number}}
                  </div></p>
 </div>
+<button type="submit" class="btn btn-primary">
+    Approve
+</button>
                  @endforeach
                  @endif
 
@@ -192,9 +190,7 @@
 
 
 </div>
-<button type="submit" class="btn btn-primary">
-    Approve
-</button>
+
 
 </div>
 </body>

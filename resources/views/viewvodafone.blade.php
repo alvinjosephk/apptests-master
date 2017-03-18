@@ -115,6 +115,29 @@
          <tr class="success">
         <td>Numbers</td>
 
+        <td>                    </td>
+         <td>                    </td>
+          <td>                    </td>
+           <td>                    </td>
+            <td>                    </td>
+             <td>                    </td>
+              <td>                    </td>
+<td>                    </td>
+ <td>                    </td>
+  <td>                    </td>
+   <td>                    </td>
+    <td>                    </td>
+    <td>                    </td>
+
+    <td>                    </td>
+
+    <td>                    </td>
+    <td>                    </td>
+
+
+
+
+       <td>price</td>
 
          </tr>
          @foreach ($users as $user)
@@ -123,26 +146,23 @@
            {{csrf_field() }}
          <input  type="hidden" name='num' value='{{ $user->number}}'>
          <td><input type="submit" value="{{ $user->number}}" style="width:250%"></td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
-         <td>                    </td>
 
-         <td>price</td>
-         <td> {{$user->price}}</td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+   <td>                    </td>
+
+<td><input type="submit" value="Rs {{$user->price}}" style="width:100%"></td>
 
          </tr>
        </form>
