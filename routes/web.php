@@ -36,6 +36,9 @@ Route::get('/about',function()
 
 Route::get('/admin','AdminController@admin');
 Route::post('/admin','AdminController@search');
+Route::post('/admin/{id}','AdminController@destroy');
+
+
 
 
 Route::get('/idea','HomeController@idea');

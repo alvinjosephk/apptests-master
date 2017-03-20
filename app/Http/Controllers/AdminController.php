@@ -26,12 +26,21 @@ class AdminController extends Controller
            $id= $request->input('id');
            $user =Customer::where('regid',$id)->get();
            return view('admin')->withUser($user);
+
        }
 
-       
 
 
+       public function destroy($id)
+       {
+          // $user=Customer::find($id);
 
+          Customer::where('regid',$id)->delete();
+          
+
+            // $user->delete();
+            return redirect()->back();
+           }
 
 
 

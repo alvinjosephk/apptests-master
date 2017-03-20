@@ -6,7 +6,7 @@
 body:before{
     background:  url("/img/background.jpg") no-repeat right top;
  display: block;
-  content:""; 
+  content:"";
  position: absolute; z-index:-1;
    top:0;
    left: 0;
@@ -53,16 +53,23 @@ body:before{
     overflow: hidden;
 }
 .admin-jumbotron{
-    position:fixed;
+    position:relative;
     background: #fff url("/img/admin_jmp.jpg") center center;
     width: 50%;
     height: 30%;
-    margin-top:105px;
+    margin-top:0px;
     margin-left:300px;
     background-size:cover;
     overflow:auto;
 
 }
+
+.color{
+  color: red;
+  font-family: cursive;
+}
+
+
 
 
 

@@ -21,20 +21,24 @@
         <div class="col-md-12 col-md-offset-0">
 
             <div class="panel panel-sucess">-->
-
-                <div class="panel-heading">Customer Details</div>
+<h1><span class="color">Complete this</span> procedure</h1>
+                <div class="panel-heading"><h2><span class="color">Customer Details</span></h2></div>
                 <div class="panel-body">
 <!--<form class="form-horizontal">
 <fieldset>-->
+
+
+
+</div>
 <form action="/details" method="POST">
 <!-- Form Name -->
 
   {{csrf_field() }}
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="Name">Name</label>
-  <div class="col-md-3">
-  <input id="name" name="name" type="text" align=centre placeholder="Enter your Name" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="Name">Name</label>
+  <div class="col-md-6">
+  <input id="name" name="name" type="text" style="width:170px;" align=centre placeholder="Enter your Name" class="form-control input-md" required="">
   @if ($errors->has('name'))
       <span class="help-block">
           <strong>{{ $errors->first('name') }}</strong>
@@ -45,9 +49,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="dob">Date Of Birth</label>
-  <div class="col-md-2">
-  <input id="dob" name="dob" type="date" placeholder="dd-mm-yyyy" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="dob">Date Of Birth</label>
+  <div class="col-md-6">
+  <input id="dob" name="dob" type="date" style="width:160px;" placeholder="dd-mm-yyyy" class="form-control input-md" required="">
   @if ($errors->has('name'))
       <span class="help-block">
           <strong>{{ $errors->first('dob') }}</strong>
@@ -58,18 +62,18 @@
 
 <!-- Multiple Radios -->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="gender">Gender</label>
-  <div class="col-md-4">
+  <label class="col-md-8 control-label" for="gender">Gender</label>
+  <div class="col-md-6">
   <div class="radio">
     <label for="gender-0">
-      <input type="radio" name="gender" id="gender-0" value="male" checked="checked">
+      <input type="radio"  name="gender" id="gender-0" value="male" checked="checked">
       Male
     </label>
 
 	</div>
   <div class="radio">
     <label for="gender-1">
-      <input type="radio" name="gender" id="gender-1" value="female">
+      <input type="radio"  name="gender" id="gender-1" value="female">
       Female
     </label>
 	</div>
@@ -85,9 +89,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="houseno">House-Number</label>
-  <div class="col-md-1">
-  <input id="houseno" name="houseno" type="text" placeholder="" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="houseno">House-Number</label>
+  <div class="col-md-6">
+  <input id="houseno" name="houseno" type="text" style="width:160px;" placeholder="" class="form-control input-md" required="">
   @if ($errors->has('houseno'))
       <span class="help-block">
           <strong>{{ $errors->first('houseno') }}</strong>
@@ -98,9 +102,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="street">Street</label>
-  <div class="col-md-2">
-  <input id="street" name="street" type="text" placeholder="" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="street">Street</label>
+  <div class="col-md-6">
+  <input id="street" name="street" type="text" style="width:160px;" placeholder="" class="form-control input-md" required="">
   @if ($errors->has('name'))
       <span class="help-block">
           <strong>{{ $errors->first('street') }}</strong>
@@ -111,9 +115,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="locality">Locality</label>
-  <div class="col-md-2">
-  <input id="locality" name="locality" type="text" placeholder="" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="locality">Locality</label>
+  <div class="col-md-6">
+  <input id="locality" name="locality" type="text" style="width:160px;" placeholder="" class="form-control input-md" required="">
   @if ($errors->has('locality'))
       <span class="help-block">
           <strong>{{ $errors->first('locality') }}</strong>
@@ -124,9 +128,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="city">City</label>
-  <div class="col-md-2">
-  <input id="city" name="city" type="text" placeholder="" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="city">City</label>
+  <div class="col-md-6">
+  <input id="city" name="city" type="text" style="width:160px;" placeholder="" class="form-control input-md" required="">
   @if ($errors->has('city'))
       <span class="help-block">
           <strong>{{ $errors->first('city') }}</strong>
@@ -137,9 +141,9 @@
 
 <!-- Text input--><br>
 <div class="form-group">
-  <label class="col-md-1 control-label" for="district">District</label>
-  <div class="col-md-2">
-  <input id="district" name="district" type="text" placeholder="" class="form-control input-md">
+  <label class="col-md-8 control-label" for="district">District</label>
+  <div class="col-md-6">
+  <input id="district" name="district" type="text" style="width:160px;" placeholder="" class="form-control input-md">
   @if ($errors->has('district'))
       <span class="help-block">
           <strong>{{ $errors->first('district') }}</strong>
@@ -150,9 +154,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="state">State</label>
-  <div class="col-md-2">
-  <input id="state" name="state" type="text" placeholder="" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="state">State</label>
+  <div class="col-md-6">
+  <input id="state" name="state" type="text" style="width:160px;" placeholder="" class="form-control input-md" required="">
   @if ($errors->has('state'))
       <span class="help-block">
           <strong>{{ $errors->first('state') }}</strong>
@@ -163,8 +167,8 @@
 
 <!-- Multiple Radios -->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="nationality">Nationality</label>
-  <div class="col-md-5">
+  <label class="col-md-8 control-label" for="nationality">Nationality</label>
+  <div class="col-md-6">
   <div class="radio">
     <label for="nationality-0">
       <input type="radio" name="nationality" id="nationality-0" value="indian" checked="checked">
@@ -182,9 +186,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-1 control-label" for="adhaar">Adhaar ID</label>
-  <div class="col-md-4">
-  <input id="aadhaar" name="aadhaar" type="text" placeholder="Enter your Adhaar ID" class="form-control input-md" required="">
+  <label class="col-md-8 control-label" for="adhaar">Adhaar ID</label>
+  <div class="col-md-6">
+  <input id="aadhaar" name="aadhaar" type="text" style="width:160px;" placeholder="Enter your Adhaar ID" class="form-control input-md" required="">
 <br>
 @if ($errors->has('aadhaar'))
     <span class="help-block">
@@ -196,11 +200,19 @@
 <br>
 <br>
 <!--</f<br>orm>-->
-<input type="submit" value="submit" style="width:20%" align:center></td>
+
+<div class="col-md-8">
+<label class="col-md-6 control-label">
+<input type="submit" value="submit" style="width:20%" class="btn btn-primary" type="button" align:center></td></div></label>
 </br>
 </form>
 </div>
 </div>
+
+
+
+
+
 <!--</div>
 </div>
 </div>

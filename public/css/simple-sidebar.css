@@ -131,9 +131,16 @@
 
 .admin_approve{
           font-family:monospace;
-          font-size:14px;
-          font-style: oblique;
+          font-size:16px;
+          color:#337ab7;
+          font-style:normal;
+          font-weight: bolder;
 }
+
+.grey {
+        color:#777890;
+  }
+
 
 
 
