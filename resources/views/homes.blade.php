@@ -6,11 +6,17 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="{{ asset('css/simple-sidebar.css') }}">
 
+
+
+
+
+
 @extends('layouts.app')
 
 @section('content')
 
 <br>
+
 <div class="sidebar-wrapper">
 
     <ul class="sidebar-nav nav">
@@ -92,7 +98,28 @@
 
 </div>
 
-<div class='col-md-12 col-md-offset-3'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='col-md-8 col-md-offset-3'>
 <div class="panel panel-primary">
   <div class="panel-heading">
     <h3 class="panel-title"><marquee>Hello User.Welcome to your dashboard......</marquee></h3>
@@ -102,6 +129,10 @@
   </div>
 </div>
 </div>
+
+
+
+
 
 
 

@@ -36,7 +36,7 @@ class AdminController extends Controller
           // $user=Customer::find($id);
 
           Customer::where('regid',$id)->delete();
-          
+
 
             // $user->delete();
             return redirect()->back();
