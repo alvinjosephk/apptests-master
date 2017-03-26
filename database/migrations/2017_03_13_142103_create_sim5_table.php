@@ -16,7 +16,6 @@ class CreateSim5Table extends Migration
       {Schema::create('sim', function (Blueprint $table) {
             $table->increments('simId')->unique;
             $table->biginteger('number')->unsigned();
-            $table->foreign('number')->references('number')->on('mobnum');
             $table->biginteger('reg-id')->unsigned()->default(0000);
             // $table->foreign('reg-id')->references('reg-id')->on('customer');
 

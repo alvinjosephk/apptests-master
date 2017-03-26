@@ -23,7 +23,7 @@ class customers_controller extends Controller
     $name=$req->input('name');
     $DoB=$req->input('dob');
     $gender=$req->input('gender');
-    $houseno= $req->input('house-no');
+    $houseno= $req->input('houseno');
     $street= $req->input('street');
     $locality= $req->input('locality');
     $city= $req->input('city');
@@ -35,7 +35,7 @@ class customers_controller extends Controller
 
 
 
-    $data= array('name'=>$name,'dob'=>$DoB,'gender'=>$gender,'house-no'=>$houseno,'street'=>$street,'locality'=>$locality,'city'=>$city,'district'=>$district,'state'=>$state,'nationality'=>$nationality,'aadhaar'=>$aadhaar);
+    $data= array('name'=>$name,'dob'=>$DoB,'gender'=>$gender,'houseno'=>$houseno,'street'=>$street,'locality'=>$locality,'city'=>$city,'district'=>$district,'state'=>$state,'nationality'=>$nationality,'aadhaar'=>$aadhaar);
 
     DB::table('customer')->insert($data);
 

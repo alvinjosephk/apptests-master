@@ -41,7 +41,7 @@
  </div><!-- /.navbar-collapse -->
  </nav>
  </header>
-
+<marquee>Get your SIM now</marquee>
  <img src="img/osires.jpg"  style="width:100%; height:">
 
 

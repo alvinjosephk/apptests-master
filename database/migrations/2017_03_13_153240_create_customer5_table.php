@@ -21,7 +21,7 @@ class CreateCustomer5Table extends Migration
         $table->string('name');
         $table->date('DoB');
         $table->char('gender');
-        $table->string('house-no');
+        $table->string('houseno');
         $table->string('street');
         $table->string('locality');
         $table->string('city');
