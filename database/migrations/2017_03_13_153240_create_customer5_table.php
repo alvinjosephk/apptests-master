@@ -43,6 +43,6 @@ class CreateCustomer5Table extends Migration
      */
     public function down()
     {
-        //
+        //Schema::drop('customer');
     }
 }
